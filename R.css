@@ -1,0 +1,27 @@
+{
+  margin:0;
+  padding:0;
+  font-family:"Cursive";
+}
+h1
+{
+  
+  color: #778899;
+  text-align: center;
+  font-size: 13vw;
+  line-height: 1.1em;
+  z-index: 1000;
+  font-weight: 900;
+  background: url('haj.jpg');
+  background-size: cover;
+  background-clip: text;
+  font-family:Bradly hand;cursive;.
+  -webkit-background-clip: text;
+  color: transparent;
+}
+h1 span
+{
+  font-size: 0.4em;
+  letter-spacing: 0.6em;
+  font-weight: 400;
+}
