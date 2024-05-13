@@ -1,0 +1,31 @@
+@import url('')
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins' , sans-serif;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: url('dudjcj.jpg'); no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+ .text {
+  position: relative;
+  width: 900px;
+  height: 440px;
+  background: transparent;
+  border: 2px solid rgb(255, 255, 255, .5);
+  border-radius: 20px;
+  color: #ffffff; 
+  font-size: 50px;
+  backdrop-filter: blur(100px);
+  box-shadow: 0 0 30px rgba(0, 0, 0, .5);
+  display: flex;
+  align-items: center;
+}
