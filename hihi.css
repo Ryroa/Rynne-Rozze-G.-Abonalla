@@ -1,0 +1,78 @@
+@import url('')
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins' , sans-serif;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: url('shdb.jpg'); no-repeat;
+  background-size: cover;
+  background-position: center;
+  
+}
+ .text {
+  position: relative;
+  width: 900px;
+  height: 440px;
+  background: white;
+  border: 2px solid rgb(255, 255, 255, .5);
+  border-radius: 20px;
+  color: #000000; 
+  font-size: 35px;
+  backdrop-filter: blur(100px);
+  box-shadow: 0 0 30px rgba(0, 0, 0, .5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.top-right-img {
+  position: absolute;
+  top: 66%;
+  right: .1%;
+  width: 400px; 
+  border-radius: 30px; 
+  box-shadow: 0 0 30px rgba(0, 0, 0, .5);
+ }
+.to {
+  position: absolute;
+  top: 13%;
+  right: 16%;
+  width: 300px; 
+  border-radius: 30px; 
+  box-shadow: 0 0 30px rgba(0, 0, 0, .5);
+ }
+.tog {
+  position: absolute;
+  top: 16%;
+  right: 2%;
+  width: 350px; 
+  border-radius: 30px; 
+  box-shadow: 0 0 30px rgba(0, 0, 0, .5);
+ }.tg {
+   position: absolute;
+    top: 73%;
+    left: 24%;
+    width: 300px; 
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius:30px; 
+ }
+  .topimage {
+    position: absolute;
+    top: 67%;
+    left: 5%;
+    width: 310px; 
+    height: 25%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius:30px; 
+  }
+ 
