@@ -1,0 +1,66 @@
+@import url('')
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins' , sans-serif;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: url('HIHI.jpg'); no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+ .text {
+  position: absolute;
+  width: 1300px;
+  height: 440px;
+  background: blur;
+  border: 2px solid rgb(255, 255, 255, .5);
+  border-radius: 20px;
+  color: #ffffff; 
+  font-size: 35px;
+  backdrop-filter: blur(100px);
+  box-shadow: 0 0 30px rgba(0, 0, 0, .5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+ .tt {
+  position: absolute;
+  width: 700px;
+  height: 315px;
+  right: 50%;
+  top: 55%;
+  background-color: rgba(14,223,203,0.189);
+  border: 2px solid rgb(255, 255, 255, .5);
+  border-radius: 20px;
+  color: #ffffff; 
+  font-size: 35px;
+  backdrop-filter: blur(100px);
+  box-shadow: 0 0 30px rgba(0, 0, 0, .5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+ .xx {
+  position: absolute;
+  width: 650px;
+  height: 315px;
+  right: 2%;
+  top: 55%;
+    background-color: rgba(14,223,203,0.189);
+  border: 2px solid rgb(255, 255, 255, .5);
+  border-radius: 20px;
+  color: #ffffff; 
+  font-size: 35px;
+  backdrop-filter: blur(100px);
+  box-shadow: 0 0 30px rgba(0, 0, 0, .5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
