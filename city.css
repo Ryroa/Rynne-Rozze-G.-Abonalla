@@ -1,0 +1,113 @@
+body {
+  background-image: url('Zambo.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.overlay {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1; 
+  left: 0;
+  top: 0;
+  background: transparent;
+  backdrop-filter: blur(30px);
+  overflow-x: hidden;
+  transition: 0.8s;
+}
+
+.overlay-content {
+  position: relative;
+  top: 25%;
+  width: 100%;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.overlay a {
+  padding: 8px;
+  text-decoration: none;
+  font-size: 40px;
+  color: white;
+  display: block;
+  transition: 0.3s;
+}
+
+.overlay a:hover, .overlay a:focus {
+color: #000;
+}
+
+.overlay .closebtn {
+  position: absolute;
+  top: 20px;
+  right: 45px;
+  font-size: 60px;
+}
+
+@media screen and (max-height: 450px) {
+  .overlay a {font-size: 20px}
+  .overlay .closebtn {
+    font-size: 40px;
+    top: 15px;
+    right: 35px;
+  }
+}
+
+.btn1 {
+  background-color: beige;
+  border: none;
+  color: black;
+  padding: 30px 100px;
+  text-align: center;
+  font-size: 32px;
+  margin: 4px 2px;
+  transition: 0.5s;
+  position: absolute;
+  bottom: 55px;
+  left: 150px;
+}
+
+.btn1:hover {
+  background-color: pink;
+  color: black;
+}
+
+.btn2 {
+  background-color: beige;
+  border: none;
+  color: black;
+  padding: 30px 100px;
+  text-align: center;
+  font-size: 32px;
+  margin: 4px 2px;
+  transition: 0.5s;
+  position: absolute;
+  bottom: 55px;
+  right: 150px;
+}
+
+.btn2:hover {
+  background-color: pink;
+  color: black;
+}
+
+.btn3 {
+  background-color: beige;
+  border: none;
+  color: black;
+  padding: 30px 100px;
+  text-align: center;
+  font-size: 32px;
+  margin: 4px 2px;
+  transition: 0.5s;
+  position: absolute;
+  bottom: 55px;
+  right: 560px;
+}
+
+.btn3:hover {
+  background-color: pink;
+  color: black;
+}
